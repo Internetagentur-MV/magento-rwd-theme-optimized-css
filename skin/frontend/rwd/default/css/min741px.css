@@ -1,0 +1,6 @@
+@media only screen and (min-width: 741px) {
+  .checkout-types.bottom .paypal-or {
+    text-align: right;
+    padding-right: 70px;
+  }
+}
