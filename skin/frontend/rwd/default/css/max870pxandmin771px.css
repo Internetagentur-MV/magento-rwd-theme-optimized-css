@@ -1,0 +1,6 @@
+@media only screen and (max-width: 870px) and (min-width: 771px) {
+  .paypal-review-order .col2-set .col-1,
+  .paypal-review-order .col2-set .col-2 {
+    padding: 0px;
+  }
+}
