@@ -1,0 +1,65 @@
+@media only screen and (min-width: 770px) {
+  .customer-account-login .col2-set .col-1 {
+    padding-right: 0;
+  }
+  .customer-account-login .col2-set .col-2 {
+    padding-left: 60px;
+    border-left: 1px solid #ededed;
+  }
+
+
+  .col1-layout .col-main .widget {
+    /* Config: Columns + flexible gutter */
+    /* Undo three-column config */
+    /* Set column config */
+    /* Config: Columns + flexible gutter */
+    /* Undo three-column config */
+    /* Set column config */
+  }
+  .col1-layout .col-main .widget .products-grid--max-4-col-widget > li:nth-child(odd) {
+    clear: none;
+  }
+  .col1-layout .col-main .widget .products-grid--max-4-col-widget > li:nth-child(3n+1) {
+    clear: none;
+  }
+  .col1-layout .col-main .widget .products-grid--max-4-col-widget > li:nth-child(even),
+  .col1-layout .col-main .widget .products-grid--max-4-col-widget > li:nth-child(3n) {
+    margin-right: 2.22222%;
+  }
+  .col1-layout .col-main .widget .products-grid--max-4-col-widget > li {
+    margin-right: 2.22222%;
+  }
+  .col1-layout .col-main .widget .products-grid--max-4-col-widget > li {
+    width: 23.33333%;
+    margin-right: 2.22222%;
+  }
+  .col1-layout .col-main .widget .products-grid--max-4-col-widget > li:nth-child(4n+1) {
+    clear: left;
+  }
+  .col1-layout .col-main .widget .products-grid--max-4-col-widget > li:nth-child(4n) {
+    margin-right: 0;
+  }
+  .col1-layout .col-main .widget .products-grid--max-5-col-widget > li:nth-child(odd) {
+    clear: none;
+  }
+  .col1-layout .col-main .widget .products-grid--max-5-col-widget > li:nth-child(3n+1) {
+    clear: none;
+  }
+  .col1-layout .col-main .widget .products-grid--max-5-col-widget > li:nth-child(even),
+  .col1-layout .col-main .widget .products-grid--max-5-col-widget > li:nth-child(3n) {
+    margin-right: 2.22222%;
+  }
+  .col1-layout .col-main .widget .products-grid--max-5-col-widget > li {
+    margin-right: 2.22222%;
+  }
+  .col1-layout .col-main .widget .products-grid--max-5-col-widget > li {
+    width: 18.22222%;
+    margin-right: 2.22222%;
+  }
+  .col1-layout .col-main .widget .products-grid--max-5-col-widget > li:nth-child(5n+1) {
+    clear: left;
+  }
+  .col1-layout .col-main .widget .products-grid--max-5-col-widget > li:nth-child(5n) {
+    margin-right: 0;
+  }
+}
