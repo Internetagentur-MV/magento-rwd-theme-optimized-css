@@ -1,0 +1,16 @@
+@media only screen and (min-width: 915px) {
+  .order-list-grid .col-1 {
+    width: 30%;
+  }
+
+  .order-list-grid .col-2 {
+    width: 50%;
+    padding-right: 20px;
+  }
+
+  .order-list-grid .col-3 {
+    clear: none;
+    width: 20%;
+    padding-top: 0;
+  }
+}
