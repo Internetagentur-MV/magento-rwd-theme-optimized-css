@@ -1,0 +1,40 @@
+@media only screen and (max-width: 1199px) {
+  .footer .links {
+    width: 22.65625%;
+    padding-right: 0;
+    margin-right: 3.125%;
+  }
+  .footer .links:nth-child(4) {
+    margin-right: 0;
+  }
+  .footer .block-subscribe {
+    clear: both;
+    float: none;
+    margin: 0 auto 30px auto;
+  }
+
+  .product-options-bottom .product-pricing,
+  .product-options-bottom .tier-prices {
+    float: none;
+    width: 100%;
+    text-align: right;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #cccccc;
+  }
+
+  .dashboard .col2-set .col-1,
+  .dashboard .col2-set .col-2 {
+    padding-right: 30px;
+    padding-bottom: 0;
+  }
+
+  body.customer-account .data-table td.view a {
+    white-space: normal;
+  }
+
+  #wishlist-table.clean-table td {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
