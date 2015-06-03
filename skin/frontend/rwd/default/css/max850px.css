@@ -1,0 +1,10 @@
+@media only screen and (max-width: 850px) {
+  .product-view .product-shop .price-box .price-excluding-tax .label,
+  .product-view .product-shop .price-box .price-including-tax .label {
+    font-size: 15px;
+  }
+  .product-view .product-shop .price-box .price-excluding-tax .price,
+  .product-view .product-shop .price-box .price-including-tax .price {
+    font-size: 18px;
+  }
+}
