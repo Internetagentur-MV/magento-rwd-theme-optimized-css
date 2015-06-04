@@ -1,0 +1,49 @@
+@media only screen and (max-width: 740px) {
+  .paypal-or {
+    line-height: 20px;
+  }
+
+  .paypal-logo,
+  .paypal-or,
+  .paypal-button {
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-right: 0;
+    margin-left: 0;
+    float: none;
+  }
+
+
+  .checkout-types {
+    float: none;
+    text-align: center;
+  }
+  .checkout-types.bottom .paypal-or, .checkout-types.minicart .paypal-or {
+    width: auto;
+    float: none;
+  }
+
+  .checkout-types li {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+  }
+
+
+  .header-minicart .minicart-actions .cart-link {
+    right: auto;
+    left: 0;
+    text-align: center;
+    width: 100%;
+  }
+  .header-minicart .minicart-actions .checkout-types.minicart li .paypal-logo .paypal-or,
+  .header-minicart .minicart-actions .checkout-types.minicart li .paypal-logo .paypal-button {
+    width: 100%;
+    display: block;
+    margin-left: 0;
+  }
+  .header-minicart .minicart-actions .checkout-types.minicart li .paypal-logo .paypal-or {
+    line-height: 1.6;
+  }
+}
