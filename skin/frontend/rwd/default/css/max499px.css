@@ -1,0 +1,5 @@
+@media only screen and (max-width: 499px) {
+  .skip-cart .count {
+    margin-left: -12px;
+  }
+}
