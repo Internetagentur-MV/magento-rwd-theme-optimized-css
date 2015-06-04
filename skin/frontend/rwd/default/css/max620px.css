@@ -1,0 +1,21 @@
+@media only screen and (max-width: 620px) {
+  .notice-cookie {
+    padding: 0 20px;
+  }
+  .notice-cookie .notice-inner {
+    background-position: left 10px;
+  }
+  .notice-cookie .notice-inner:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  .notice-cookie .notice-text {
+    float: none;
+    max-width: 100%;
+    padding-top: 0;
+  }
+  .notice-cookie .actions {
+    text-align: left;
+  }
+}
