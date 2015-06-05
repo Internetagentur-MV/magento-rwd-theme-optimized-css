@@ -1,0 +1,5 @@
+@media only screen and (max-width: 450px) {
+  #customer-reviews dl dd .ratings-table tr {
+    float: none;
+  }
+}
