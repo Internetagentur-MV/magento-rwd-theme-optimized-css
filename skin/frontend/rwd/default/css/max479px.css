@@ -1,0 +1,479 @@
+@media only screen and (max-width: 479px) {
+  .buttons-set .button {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 7px;
+  }
+  .buttons-set .back-link {
+    display: none;
+  }
+  .buttons-set .required {
+    display: none;
+  }
+
+
+  .col2-set .col-1,
+  .col2-set .col-2 {
+    float: none;
+    width: auto;
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+
+  .truncated {
+    cursor: inherit;
+  }
+  .truncated a.details {
+    display: none;
+  }
+  .truncated .truncated_full_value .item-options {
+    display: block;
+    position: static;
+    z-index: 1;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+  }
+  .truncated .truncated_full_value .item-options p {
+    float: none;
+  }
+  .truncated .truncated_full_value .item-options:after {
+    display: none;
+  }
+
+
+  .pager .amount--has-pages {
+    display: none;
+  }
+
+  .pages {
+    float: left;
+  }
+
+  .limiter label {
+    display: none;
+  }
+
+
+  .linearize-table {
+    /* Helpers */
+  }
+  .linearize-table tr,
+  .linearize-table th,
+  .linearize-table td {
+    display: block;
+  }
+  .linearize-table thead th {
+    border-right: 0;
+    border-left: 0;
+  }
+  .linearize-table thead th.lin-hide {
+    display: none;
+  }
+  .linearize-table thead th:nth-child(1n+2) {
+    display: none;
+  }
+  .linearize-table tbody tr {
+    position: relative;
+    border-bottom: 1px solid #cccccc;
+  }
+  .linearize-table tbody td {
+    padding: 0 10px 4px;
+    border-right: 0;
+    border-bottom: 0;
+  }
+  .linearize-table tbody td.lin-hide {
+    display: none;
+  }
+  .linearize-table tbody td:first-child {
+    padding-top: 10px;
+  }
+  .linearize-table tbody td:first-child,
+  .linearize-table tbody td:first-child h3 {
+    font-weight: bold;
+  }
+  .linearize-table tbody td[data-rwd-label] {
+    text-align: left;
+    padding-left: 30px;
+  }
+  .linearize-table tbody td[data-rwd-label]:before {
+    content: attr(data-rwd-label) ":";
+    font-size: 12px;
+    font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+    padding-right: 5px;
+    text-transform: uppercase;
+  }
+  .linearize-table tfoot tr {
+    display: block;
+    text-align: right;
+  }
+  .linearize-table tfoot tr:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  .linearize-table tfoot td {
+    display: block;
+    float: left;
+  }
+  .linearize-table tfoot td.lin-hide {
+    display: none;
+  }
+  .linearize-table tfoot td:nth-child(odd) {
+    clear: left;
+    width: 60%;
+  }
+  .linearize-table tfoot td:nth-child(even) {
+    text-align: left;
+    width: 40%;
+  }
+  .linearize-table .linearize-hide {
+    display: none;
+  }
+  .linearize-table .linearize-unpad {
+    padding: 0;
+  }
+  .linearize-table .linearize-show {
+    display: block;
+  }
+
+
+  .page-header-container .store-language-container {
+    padding-top: 8px;
+  }
+  .page-header-container .store-language-container select {
+    font-size: 12px;
+  }
+
+
+  .footer {
+    padding-top: 15px;
+  }
+
+
+  .product-img-box .product-image img {
+    max-height: 450px;
+  }
+
+
+  .product-view .add-to-cart-buttons .paypal-or {
+    line-height: 20px;
+  }
+  .product-view .add-to-cart-buttons .paypal-logo,
+  .product-view .add-to-cart-buttons .paypal-or,
+  .product-view .add-to-cart-buttons .paypal-button,
+  .product-view .add-to-cart-buttons .button {
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-right: 0;
+    margin-left: 0;
+    float: none;
+  }
+
+
+  .product-view .product-shop,
+  .product-img-box,
+  .product-collateral,
+  .product-view .block-related,
+  .box-collateral {
+    margin-bottom: 15px;
+  }
+
+
+  .grouped-items-table-wrapper {
+    margin-bottom: 15px;
+  }
+
+
+  .product-options-bottom .price-box .price-as-configured {
+    text-align: right;
+  }
+  .product-options-bottom .price-box .price-as-configured .price-label {
+    display: block;
+  }
+
+
+  .map-popup .map-popup-heading h3 {
+    text-align: center;
+  }
+
+
+  .map-popup .map-popup-content {
+    text-align: center;
+  }
+
+
+  .map-popup .map-popup-checkout {
+    text-align: center;
+  }
+  .map-popup .map-popup-checkout .button,
+  .map-popup .map-popup-checkout .additional-addtocart-box,
+  .map-popup .map-popup-checkout .paypal-logo a,
+  .map-popup .map-popup-checkout .paypal-logo .paypal-or {
+    float: none;
+  }
+  .map-popup .map-popup-checkout .additional-addtocart-box {
+    min-width: 0px;
+  }
+  .map-popup .map-popup-checkout .paypal-logo .paypal-or {
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+
+
+  .map-popup .map-popup-price {
+    text-align: center;
+    padding-top: 0px;
+  }
+
+
+  .opc .buttons-set .button + .buttons-set .button,
+  .paypal-express-review .buttons-set .button + .buttons-set .button {
+    margin-left: 0;
+  }
+
+
+  .sp-methods .checkmo-list {
+    padding-left: 0;
+  }
+  .sp-methods .checkmo-list label {
+    width: 135px;
+  }
+
+
+  .linearize-table.checkout-review-table thead tr:nth-child(1n+2) {
+    display: none;
+  }
+
+
+  #checkout-step-review .opc-block-progress .block-content > dl > div {
+    float: none;
+    width: auto;
+  }
+
+
+  #checkout-review-table thead > tr > th {
+    display: none;
+  }
+  #checkout-review-table thead > tr > th:first-child {
+    display: block;
+  }
+
+  #checkout-review-table thead > tr > th:first-child {
+    display: block;
+  }
+
+
+  .customer-account-login .col2-set .col-1 {
+    padding-bottom: 30px;
+  }
+  .customer-account-login .col2-set .col-2 {
+    padding-top: 30px;
+    border-top: 1px solid #ededed;
+  }
+
+
+  .customer-account-create .fieldset,
+  .customer-account-create .buttons-set {
+    margin-left: 0;
+  }
+
+
+  .customer-account-forgotpassword .fieldset,
+  .customer-account-forgotpassword .buttons-set {
+    margin-left: 0;
+  }
+
+
+  body.customer-account .my-account .page-title h1 {
+    text-align: center;
+  }
+  body.customer-account .my-account .title-buttons {
+    text-align: center;
+  }
+  body.customer-account .my-account .title-buttons .button {
+    width: 100%;
+    position: static;
+    margin-bottom: 15px;
+  }
+  body.customer-account .my-account .title-buttons .button + .button {
+    margin-left: 0px;
+  }
+  body.customer-account .my-account .fieldset h2 {
+    margin-bottom: 15px;
+  }
+  body.customer-account .my-account .order-details h2 {
+    margin-bottom: 15px;
+  }
+  body.customer-account .my-account .buttons-set {
+    border-top: 0;
+  }
+  body.customer-account .my-account .addresses-list .item {
+    margin-bottom: 15px;
+    padding-right: 0;
+    float: none;
+    width: auto;
+  }
+  body.customer-account .my-account .addresses-list h2 {
+    margin-bottom: 15px;
+  }
+
+  .order-info {
+    margin-top: 15px;
+  }
+
+  .data-table.orders .link-reorder,
+  .data-table.orders .date {
+    display: none;
+  }
+  .data-table.orders td.view {
+    text-align: right;
+  }
+
+  .dashboard .col2-set .col-1,
+  .dashboard .col2-set .col-2 {
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .order-info-box {
+    margin: 0;
+  }
+  .order-info-box .col-1,
+  .order-info-box .col-2 {
+    width: 100%;
+    border-bottom: 1px solid #ededed;
+    padding: 15px 0;
+  }
+  .order-info-box + .order-info-box {
+    padding-bottom: 0;
+    border-bottom: 0;
+    margin-bottom: 30px;
+  }
+
+  #my-reviews-table .nobr {
+    white-space: normal;
+  }
+
+
+  #wishlist-table tr {
+    position: relative;
+  }
+  #wishlist-table th.customer-wishlist-item-image {
+    display: block;
+  }
+  #wishlist-table td.customer-wishlist-item-image, #wishlist-table td.customer-wishlist-item-info, #wishlist-table td.customer-wishlist-item-quantity, #wishlist-table td.customer-wishlist-item-price, #wishlist-table td.customer-wishlist-item-cart {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    empty-cells: hide;
+  }
+  #wishlist-table td.customer-wishlist-item-image {
+    display: block;
+    overflow: hidden;
+  }
+  #wishlist-table td.customer-wishlist-item-image a {
+    float: left;
+  }
+  #wishlist-table td.customer-wishlist-item-image a img {
+    width: 113px;
+    height: 113px;
+  }
+  #wishlist-table td.customer-wishlist-item-quantity, #wishlist-table td.customer-wishlist-item-price {
+    text-align: left;
+  }
+  #wishlist-table td.customer-wishlist-item-quantity:before, #wishlist-table td.customer-wishlist-item-price:before {
+    float: left;
+    margin-right: 15px;
+  }
+  #wishlist-table td.customer-wishlist-item-quantity .cart-cell, #wishlist-table td.customer-wishlist-item-price .cart-cell {
+    text-align: left;
+  }
+  #wishlist-table td.customer-wishlist-item-quantity .price-box, #wishlist-table td.customer-wishlist-item-price .price-box {
+    margin-top: 0;
+  }
+  #wishlist-table td.customer-wishlist-item-cart .cart-cell {
+    float: left;
+    width: 48%;
+  }
+  #wishlist-table td.customer-wishlist-item-cart > p {
+    float: right;
+    width: 48%;
+  }
+  #wishlist-table td.customer-wishlist-item-remove {
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    display: block;
+    padding: 0px;
+    height: 20px;
+  }
+  #wishlist-table.clean-table td.customer-wishlist-item-cart {
+    width: 100%;
+  }
+
+
+  .header-minicart a.skip-cart {
+    z-index: 1;
+  }
+
+
+  .advanced-search {
+    padding: 15px;
+  }
+
+
+  .sales-order-invoice .sub-title,
+  .sales-order-creditmemo .sub-title,
+  .sales-order-shipment .sub-title {
+    float: left;
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+  }
+  .sales-order-invoice .order-links,
+  .sales-order-creditmemo .order-links,
+  .sales-order-shipment .order-links {
+    text-align: center;
+    width: 100%;
+  }
+
+
+  #recurring_profile_list_view {
+    font-size: 12px;
+  }
+  #recurring_profile_list_view a {
+    font-size: inherit;
+  }
+  #recurring_profile_list_view th,
+  #recurring_profile_list_view td {
+    padding: 2px;
+  }
+
+
+  body.customer-account .my-account .title-buttons.recurring-profiles-title-buttons {
+    text-align: center;
+    float: none;
+  }
+
+
+  .billing-agreements .info-box .button {
+    width: 100%;
+    float: none;
+  }
+
+
+  .billing-agreement-view-header-wrapper .heading {
+    max-width: 100%;
+  }
+
+
+  body[class*="checkout-multishipping-"] .buttons-set .back-link {
+    display: block;
+  }
+}
