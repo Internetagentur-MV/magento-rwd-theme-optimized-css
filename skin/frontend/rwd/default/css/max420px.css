@@ -1,0 +1,10 @@
+@media only screen and (max-width: 420px) {
+  .product-view .product-shop .price-box .price-excluding-tax,
+  .product-view .product-shop .price-box .price-including-tax {
+    margin-bottom: 5px;
+  }
+  .product-view .product-shop .price-box .price-excluding-tax span,
+  .product-view .product-shop .price-box .price-including-tax span {
+    display: block;
+  }
+}
