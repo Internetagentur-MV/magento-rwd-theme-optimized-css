@@ -1,0 +1,6 @@
+@media only screen and (max-width: 699px) {
+  .display-both-prices .cart-table thead th.cart-total-head,
+  .display-both-prices .cart-table td.product-cart-total {
+    display: none;
+  }
+}
